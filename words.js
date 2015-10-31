@@ -1,4 +1,4 @@
 
 setOund(
-	["Browned","Crowned","Round","Round","Mound","Nouned","Sound","Pound","Wound","Hound","Astound","Bound","Downed"]
+	["browned","crowned","round","mound","nouned","sound","pound","wound","hound","astound","bound","downed"]
 );
