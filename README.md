@@ -3,7 +3,6 @@
 Browned
 Crowned
 Round
-Round
 Mound
 Nouned
 Sound
