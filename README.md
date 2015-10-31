@@ -13,3 +13,6 @@ Hound
 Astound
 Bound
 Downed
+Ground
+Frowned
+Towned
