@@ -18,7 +18,8 @@ var downed = new Word("downed", "Cornsilk")
 var ground = new Word("ground", "DarkSalmon")
 var frowned = new Word("frowned", "Gainsboro")
 var towned = new Word("towned", "LavendarBlush")
+var around = new Word("around", "Snow")
 
 setOund(
-	[browned,crowned,round,mound,nouned,sound,pound,wound,hound,astound,bound,downed, ground, frowned, towned]
+	[browned,crowned,round,mound,nouned,sound,pound,wound,hound,astound,bound,downed,ground,frowned,towned,around]
 );

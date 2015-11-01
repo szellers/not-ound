@@ -15,17 +15,34 @@
 				}
 			}
 		</script>
-		<style type="text/css">
-			.title {
-				text-transform: capitalize;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-		<h1>Not <span class="found title">Found<span></h1>
+		<h1>Not <span class="found title"><span></h1>
 		<p>
-			The requested URL <span id="url"></span> was not <span class="found">found</span> on this server.
+			The requested URL <span id="url"></span> was not <span class="found"></span> on this server.
 		</p>
+
+		<div class="footer">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+					<table>
+						<tr><td><input type="hidden" name="on0" value="College kids going hungry? Why not help us out!">College kids going hungry? Why not help us out!</td></tr>
+						<tr><td>
+							<select name="os0">
+								<option value="Breakfast">Breakfast $1.00 USD</option>
+								<option value="Lunch">Lunch $3.00 USD</option>
+								<option value="Dinner">Dinner $5.00 USD</option>
+								<option value="2:00AM Snack Run">2:00AM Snack Run $8.00 USD</option>
+							</select> 
+						</td></tr>
+					</table>
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
 		<script type="text/javascript" src="./words.js"></script>
 	</body>
 </html>

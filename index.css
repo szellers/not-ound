@@ -1,0 +1,11 @@
+.footer {
+	position: absolute;
+	margin: -200px 0 0 -125px;
+	text-align: center;
+	top: 100%;
+	left: 50%;
+}
+
+.title {
+	text-transform: capitalize;
+}
